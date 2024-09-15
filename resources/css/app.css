@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* app.css */
+
+/* Example: Importing Bootstrap (optional) */
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+/* Your custom styles */
+body {
+    background-color: #f8fafc;
+}

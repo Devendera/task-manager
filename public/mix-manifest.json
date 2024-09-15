@@ -1,0 +1,10 @@
+const mix = require('laravel-mix');
+
+mix.js('resources/js/app.js', 'public/js')
+    .postCss('resources/css/app.css', 'public/css', [
+        // Add any required PostCSS plugins here
+    ])
+    .version(); // This enables cache-busting by versioning the files
+
+// If you are using Sass instead of PostCSS, uncomment the following line:
+// mix.sass('resources/sass/app.scss', 'public/css');
